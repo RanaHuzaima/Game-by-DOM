@@ -22,5 +22,11 @@ function runtimer() {
       clearTimeout(timer);
     }
   }, 1000);
-}
+};
 
+var score = 0;
+
+function increaseScore(){
+    score +=10;
+    document.querySelector(.elm3).textContent = score;
+}
