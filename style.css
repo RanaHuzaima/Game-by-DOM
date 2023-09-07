@@ -46,8 +46,34 @@ html,body{
     justify-content: center;
     width: 30px;
     height: 30px;
-    background-color: blue;
+    background-color: rgb(11, 129, 0);
     color: white;
     border-radius: 5px;
     padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#pbtm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.bubble{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(34, 185, 20);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bubble:hover{
+    background-color: rgb(15, 151, 3);
+    cursor: pointer;
 }
